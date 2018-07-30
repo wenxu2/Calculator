@@ -173,9 +173,10 @@ public class MainActivity extends AppCompatActivity {
         binding.percentageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String number = binding.Total.getText().toString();
-                int percentage = Integer.parseInt(number) / 10;
-                binding.Total.setText("." + String.format("%03d", percentage).toString());
+                float number = Integer.parseInt(binding.Total.getText().toString());
+                float percentage = number / 100;
+                String show_number = String.format("%.3f",percentage).toString();
+                binding.Total.setText(show_number);
                 sb = new StringBuilder();
 
 
