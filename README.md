@@ -1,3 +1,3 @@
 # Calculator
-Android Studio Project 
-Test on Emulator Nexus_4_API_27
+Android Studio Project\n 
+Test on Emulator Amazon Fire Tablet
