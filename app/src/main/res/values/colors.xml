@@ -3,8 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name ="black">#000000</color>>
+    <color name="black">#000000</color>>
     <color name="white">#FFFFFF</color>>
-    <color name = "orange">#FF7F50</color>>
-    <color name ="silver">#b6b6b6</color>>
+    <color name= "orange">#FF7F50</color>>
+    <color name="silver">#b6b6b6</color>>
+    <color name="light_silver">#e1e1e1</color>
 </resources>

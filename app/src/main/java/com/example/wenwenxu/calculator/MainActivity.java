@@ -1,9 +1,11 @@
 package com.example.wenwenxu.calculator;
 
 import android.databinding.DataBindingUtil;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 
 import com.example.wenwenxu.calculator.databinding.ActivityMainBinding;
@@ -172,12 +174,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String number = binding.Total.getText().toString();
-                float percentage = Integer.parseInt(number) / 100;
-                binding.Total.setText(" "+percentage);
+                int percentage = Integer.parseInt(number) / 10;
+                binding.Total.setText("." + String.format("%03d", percentage).toString());
+                sb = new StringBuilder();
 
 
             }
         });
+
 
         return firstnumber;
     }

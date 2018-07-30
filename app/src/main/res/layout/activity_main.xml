@@ -7,15 +7,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="155dp"
+            android:layout_height="230dp"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="64dp"
+                android:layout_height="137dp"
                 android:background="@color/black" />
 
             <TextView
@@ -32,42 +31,42 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="441dp"
+            android:layout_height="731dp"
             android:layout_marginTop="2dp"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp">
+                android:layout_height="146dp">
 
                 <Button
                     android:id="@+id/clear_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="C"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/plus_minus_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="+/-"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/percentage_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="%"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/divison_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_sign"
                     android:text="÷"
                     android:textColor="@color/white"
@@ -78,36 +77,36 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp">
+                android:layout_height="146dp">
 
                 <Button
                     android:id="@+id/seven_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="7"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/eight_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="8"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/nine_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="9"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/times_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_sign"
                     android:text="x"
                     android:textColor="@color/white"
@@ -118,36 +117,36 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp">
+                android:layout_height="146dp">
 
                 <Button
                     android:id="@+id/four_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="4"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/five_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="5"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/six_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="6"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/minus_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_sign"
                     android:text="-"
                     android:textColor="@color/white"
@@ -157,36 +156,36 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp">
+                android:layout_height="146dp">
 
                 <Button
                     android:id="@+id/one_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="1"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/two_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="2"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/three_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="3"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/plus_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_sign"
                     android:text="+"
                     android:textColor="@color/white"
@@ -196,28 +195,28 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="83dp">
+                android:layout_height="146dp">
 
                 <Button
                     android:id="@+id/zero_Button"
-                    android:layout_width="191.6dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="300dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="0"
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/dot_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_button"
                     android:text="."
                     android:textSize="50dp" />
 
                 <Button
                     android:id="@+id/equal_Button"
-                    android:layout_width="95.8dp"
-                    android:layout_height="88.2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="146dp"
                     android:background="@drawable/bg_sign"
                     android:text="="
                     android:textColor="@color/white"
