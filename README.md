@@ -1,4 +1,8 @@
-Calculator
-Android Studio Project
-Test on Emulator Amazon Fire Tablet
-Tablet Resolution : 1024 × 600 
+# Calculator
+- This is an Android Studio project, it is a basic and simple calculator that runs on all Android plateforms. 
+
+# What I Learn
+- Android
+- XML Layout
+- Java
+
